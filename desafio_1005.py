@@ -14,6 +14,12 @@ Use variáveis de dupla precisão (double) e como todos os problemas, não esque
 de imprimir o fim de linha após o resultado, caso contrário, você receberá
 "Presentation Error".
 """
+A = float(input())
+B = float(input())
+
+MEDIA = (A * 3.5 + B * 7.5) / 11
+
+print("MEDIA = {:.5f}".format(MEDIA))
 
 # Link do problema: https://judge.beecrowd.com/pt/problems/view/1005
 
