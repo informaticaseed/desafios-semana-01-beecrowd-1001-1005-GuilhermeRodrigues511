@@ -12,6 +12,14 @@ antes e depois da igualdade. Não esqueça de imprimir o fim de linha após o pr
 caso contrário seu programa apresentará a mensagem: "Presentation Error".
 """
 
+A = int(input())
+B = int(input())
+
+PROD = A * B
+
+print("PROD =", PROD)
+
+
 # Link do problema: https://judge.beecrowd.com/pt/problems/view/1004
 
 # Escreva sua solução abaixo
